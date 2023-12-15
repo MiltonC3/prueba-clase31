@@ -39,6 +39,7 @@ const controller = {
         console.log('1-Errors', errors);
         console.log('💙💙💙💙');
         console.log('2-Errors', errors.mapped());
+        console.log('error-generado')
 
         const { name, price, discount, category, description } = req.body;
         console.log(req.body);
