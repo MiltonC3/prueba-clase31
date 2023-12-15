@@ -40,6 +40,7 @@ const controller = {
         console.log('💙💙💙💙');
         console.log('2-Errors', errors.mapped());
         console.log('conflicto')
+        console.log('error-generado')
 
         const { name, price, discount, category, description } = req.body;
         console.log(req.body);
